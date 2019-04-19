@@ -1,0 +1,28 @@
+{
+  "name": "@weahead/lint-staged-config",
+  "version": "0.1.0",
+  "description": "We aheads lint-staged configuration.",
+  "main": "index.js",
+  "scripts": {
+    "lint-staged": "npm run prettier",
+    "prettier": "prettier --write '**/**.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weahead/lint-staged-config.git"
+  },
+  "author": "We ahead <alla@weahead.se>",
+  "license": "X11",
+  "bugs": {
+    "url": "https://github.com/weahead/lint-staged-config/issues"
+  },
+  "homepage": "https://github.com/weahead/lint-staged-config#readme",
+  "devDependencies": {
+    "@weahead/husky-config": "0.1.2",
+    "@weahead/prettier-config": "0.1.0",
+    "husky": "1.3.1",
+    "lint-staged": "8.1.5",
+    "package-change-checker": "1.2.3",
+    "prettier": "1.17.0"
+  }
+}
