@@ -1,0 +1,19 @@
+{
+  "name": "@weahead/lint-staged-config",
+  "version": "0.1.0",
+  "description": "We aheads lint-staged configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weahead/lint-staged-config.git"
+  },
+  "author": "We ahead <alla@weahead.se>",
+  "license": "X11",
+  "bugs": {
+    "url": "https://github.com/weahead/lint-staged-config/issues"
+  },
+  "homepage": "https://github.com/weahead/lint-staged-config#readme"
+}
