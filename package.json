@@ -1,11 +1,11 @@
 {
   "name": "@weahead/lint-staged-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "We aheads lint-staged configuration.",
   "main": "index.js",
   "scripts": {
     "lint-staged": "npm run prettier",
-    "prettier": "prettier --write '**/**.js'"
+    "prettier": "prettier --write '**/**.md' '**/**.js'"
   },
   "files": [
     "index.js"
