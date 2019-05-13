@@ -1,6 +1,6 @@
 {
   "name": "@weahead/lint-staged-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "We aheads lint-staged configuration.",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/weahead/lint-staged-config#readme",
   "devDependencies": {
-    "@weahead/husky-config": "0.1.2",
+    "@weahead/husky-config": "0.2.0",
     "@weahead/prettier-config": "0.1.0",
-    "husky": "1.3.1",
-    "lint-staged": "8.1.5",
-    "package-change-checker": "1.2.3",
+    "husky": "2.2.0",
+    "lint-staged": "8.1.6",
+    "package-change-checker": "1.2.4",
     "prettier": "1.17.0"
   }
 }
