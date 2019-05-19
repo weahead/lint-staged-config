@@ -27,5 +27,8 @@
     "lint-staged": "8.1.7",
     "package-change-checker": "1.2.4",
     "prettier": "1.17.1"
+  },
+  "peerDependencies": {
+    "lint-staged": ">=8"
   }
 }
