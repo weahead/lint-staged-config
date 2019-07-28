@@ -4,9 +4,10 @@
   "description": "We aheads lint-staged configuration.",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write '*.md' '*.js' '*.json'",
+    "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
-    "lint:md": "markdownlint *.md"
+    "lint:md": "markdownlint *.md",
+    "prettier": "prettier --write '*.md' '*.js' '*.json'"
   },
   "files": [
     "index.js"
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/weahead/lint-staged-config#readme",
   "devDependencies": {
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "@commitlint/prompt-cli": "8.1.0",
+    "@weahead/commitlint-config": "0.1.3",
     "@weahead/eslint-config-tool": "0.1.1",
     "@weahead/husky-config": "0.3.1",
     "@weahead/markdownlint-config": "0.1.0",
