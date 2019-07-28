@@ -4,9 +4,9 @@
   "description": "We aheads lint-staged configuration.",
   "main": "index.js",
   "scripts": {
-    "lint-staged": "npm run prettier",
-    "prettier": "prettier --write '**/**.md' '**/**.js'",
-    "lint": "eslint --fix '**/*.js' '**/*.json'"
+    "prettier": "prettier --write '*.md' '*.js' '*.json'",
+    "lint": "eslint --fix '**/*.js' '**/*.json'",
+    "lint:md": "markdownlint *.md"
   },
   "files": [
     "index.js"
@@ -24,17 +24,20 @@
   "devDependencies": {
     "@weahead/eslint-config-tool": "0.1.1",
     "@weahead/husky-config": "0.3.1",
+    "@weahead/markdownlint-config": "0.1.0",
     "@weahead/prettier-config": "0.1.2",
     "eslint": "6.1.0",
     "eslint-plugin-json": "1.4.0",
     "husky": "2.3.0",
     "lint-staged": "8.1.7",
+    "markdownlint-cli": "0.17.0",
     "package-change-checker": "1.2.4",
     "prettier": "1.17.1"
   },
   "peerDependencies": {
     "lint-staged": ">=8",
     "eslint": ">=5",
+    "markdownlint-cli": "*",
     "prettier": ">=1"
   },
   "dependencies": {}

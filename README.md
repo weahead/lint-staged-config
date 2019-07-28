@@ -2,32 +2,16 @@
 
 [We aheads](https://www.weahead.se/) configuration for lint-staged.
 
-It runs `npm run lint-staged` for all JavaScript files.
-
 ## Install
 
-```
+```sh
 npx install-peerdeps -d -x '-E' @weahead/lint-staged-config
 ```
 
 Create a `lint-staged.config.js` file in the root of your project with:
 
-```
+```js
 module.exports = require('@weahead/lint-staged-config');
-```
-
-Add a run target to `package.json` named `lint-staged` with the desired command:
-
-```
-{
-    ...
-    "scripts": {
-        ...
-        "lint-staged": "<your command goes here>",
-        ...
-    }
-    ...
-}
 ```
 
 ## License
