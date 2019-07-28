@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint-staged": "npm run prettier",
-    "prettier": "prettier --write '**/**.md' '**/**.js'"
+    "prettier": "prettier --write '**/**.md' '**/**.js'",
+    "lint": "eslint --fix '**/*.js' '**/*.json'"
   },
   "files": [
     "index.js"
@@ -21,14 +22,20 @@
   },
   "homepage": "https://github.com/weahead/lint-staged-config#readme",
   "devDependencies": {
+    "@weahead/eslint-config-tool": "0.1.1",
     "@weahead/husky-config": "0.3.1",
     "@weahead/prettier-config": "0.1.2",
+    "eslint": "6.1.0",
+    "eslint-plugin-json": "1.4.0",
     "husky": "2.3.0",
     "lint-staged": "8.1.7",
     "package-change-checker": "1.2.4",
     "prettier": "1.17.1"
   },
   "peerDependencies": {
-    "lint-staged": ">=8"
-  }
+    "lint-staged": ">=8",
+    "eslint": ">=5",
+    "prettier": ">=1"
+  },
+  "dependencies": {}
 }
