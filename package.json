@@ -1,16 +1,18 @@
 {
   "name": "@weahead/lint-staged-config",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "We aheads lint-staged configuration.",
   "main": "index.js",
   "scripts": {
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
     "lint:md": "markdownlint *.md",
-    "prettier": "prettier --write '*.md' '*.js' '*.json'"
+    "prettier": "prettier --write '*.md' '*.js' '*.json'",
+    "postinstall": "./scripts/postinstall.sh"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "scripts/*"
   ],
   "repository": {
     "type": "git",

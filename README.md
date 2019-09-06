@@ -4,11 +4,9 @@
 
 ## Install
 
-```sh
-npx install-peerdeps -d -x '-E' @weahead/lint-staged-config
-```
+`npx install-peerdeps -d -x '-E' @weahead/lint-staged-config`
 
-Create a `lint-staged.config.js` file in the root of your project with:
+A `lint-staged.config.js` file will automatically be created in the root of your project with:
 
 ```js
 module.exports = require('@weahead/lint-staged-config');
