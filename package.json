@@ -7,10 +7,12 @@
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
     "lint:md": "markdownlint *.md",
-    "prettier": "prettier --write '*.md' '*.js' '*.json'"
+    "prettier": "prettier --write '*.md' '*.js' '*.json'",
+    "postinstall": "./scripts/postinstall.sh"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "scripts/*"
   ],
   "repository": {
     "type": "git",
