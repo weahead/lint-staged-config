@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "commit",
-    "lint": "eslint --fix '**/*.js' '**/*.json'",
+    "eslint": "eslint --fix '*.js'",
     "lint:md": "markdownlint *.md",
     "prettier": "prettier --write '*.md' '*.js' '*.json'",
     "postinstall": "./scripts/postinstall.sh"
@@ -34,7 +34,6 @@
     "@weahead/markdownlint-config": "0.1.0",
     "@weahead/prettier-config": "0.1.2",
     "eslint": "6.1.0",
-    "eslint-plugin-json": "1.4.0",
     "husky": "2.3.0",
     "lint-staged": "8.1.7",
     "markdownlint-cli": "0.17.0",
