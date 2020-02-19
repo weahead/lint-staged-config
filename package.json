@@ -8,7 +8,7 @@
     "eslint": "eslint --fix '*.js'",
     "lint:md": "markdownlint *.md",
     "prettier": "prettier --write '*.md' '*.js' '*.json'",
-    "postinstall": "./scripts/postinstall.sh"
+    "postinstall": "node scripts/postinstall.js"
   },
   "files": [
     "index.js",
