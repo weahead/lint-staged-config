@@ -1,6 +1,6 @@
 {
   "name": "@weahead/lint-staged-config",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "We aheads lint-staged configuration.",
   "main": "index.js",
   "scripts": {
